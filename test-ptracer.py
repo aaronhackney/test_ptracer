@@ -20,7 +20,7 @@ def main():
     destination_ports = {
         "HTTP": 80, "HTTPS": 443, "RDP": 3389, "MYSQL": 3306, "FTP": 21, "SSH": 22, "TELNET": 23, "SMTP": 25, "DNS": 53,
         "TFTP":69, "POP": 110, "NTP": 123, "NETBIOS1": 137, "NETBIOS2": 138, "NETBIOS3": 139, "IMAP": 143, "LDAP": 389,
-        "LDAPS": 636, "FTPS":990
+        "LDAPS": 636, "FTPS": 990
     }
     #
     #########################################################
