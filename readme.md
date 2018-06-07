@@ -1,5 +1,6 @@
 
 This is a sample of how one might call and consume ASDM from an ASA in python.  
+This is a very simple script by design. It makes the assumption that Gig 0/0 is UP/UP and that nameif is "outside"   
 
 Packages required:  
           - bs4  
@@ -11,7 +12,7 @@ Packages required:
 3. python test-ptracer.py
 
 
-Python Script ASDM HTTP Request
+**Python Script ASDM HTTP Request**
 ```
 POST /admin/config HTTP/1.1
 Accept-Encoding: identity
@@ -28,7 +29,7 @@ Authorization: Basic Y2lzY286c2FuZnJhbg==
 </config-data>
 ```
 
-HTTP Server Response
+**HTTP Server Response**
 ```
 Date: Fri, 25 May 2018 01:27:33 UTC
 Connection: close

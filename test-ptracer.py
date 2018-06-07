@@ -18,9 +18,9 @@ def main():
     source_addresses = ['8.8.8.8']
     destination_addresses = ['192.168.248.248', '10.255.255.10', '172.16.127.127']
     destination_ports = {
-        "HTTP":80, "HTTPS":443, "RDP":3389, "MYSQL":3306, "FTP":21, "SSH":22, "TELNET":23, "SMTP":25, "DNS":53, "TFTP":69,
-        "POP":110, "NTP":123, "NETBIOS1":137, "NETBIOS2":138, "NETBIOS3":139, "IMAP":143, "LDAP":389, "LDAPS":636,
-        "FTPS":990
+        "HTTP": 80, "HTTPS": 443, "RDP": 3389, "MYSQL": 3306, "FTP": 21, "SSH": 22, "TELNET": 23, "SMTP": 25, "DNS": 53,
+        "TFTP":69, "POP": 110, "NTP": 123, "NETBIOS1": 137, "NETBIOS2": 138, "NETBIOS3": 139, "IMAP": 143, "LDAP": 389,
+        "LDAPS": 636, "FTPS":990
     }
     #
     #########################################################
